@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".menuActivity"
+    android:background="#5BC7D5"
+    >
+
+    <TableRow android:layout_marginBottom="30sp">
+
+        <TextView
+            android:layout_width="336dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text="Restaurant  Menu"
+            android:textColor="@color/black"
+            android:textSize="45sp"/>
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="40sp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:text="Type of Menu - "
+            android:textColor="@color/black"
+            android:textSize="30sp"/>
+
+        <Spinner
+            android:id="@+id/spinner1"
+            android:layout_width="150sp"
+            android:layout_marginStart="-130sp"
+            android:layout_height="match_parent"
+            android:background="@android:drawable/btn_dropdown"
+            android:spinnerMode="dropdown"
+            />
+
+
+    </TableRow>
+
+    <TableRow android:layout_marginTop="40sp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:text="Drinks - "
+            android:textSize="30sp"
+            android:textColor="@color/black" />
+        <Spinner
+            android:id="@+id/spinner2"
+            android:layout_width="150sp"
+            android:layout_marginStart="-130sp"
+            android:layout_height="match_parent"
+            android:background="@android:drawable/btn_dropdown"
+            android:spinnerMode="dropdown"
+            />
+    </TableRow>
+    <TableRow android:layout_marginTop="40sp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:text="Starter - "
+            android:textSize="30sp"
+            android:textColor="@color/black"
+            />
+        <Spinner
+            android:id="@+id/spinner3"
+            android:layout_width="150sp"
+            android:layout_marginStart="-130sp"
+            android:layout_height="match_parent"
+            android:background="@android:drawable/btn_dropdown"
+            android:spinnerMode="dropdown"
+            />
+    </TableRow>
+    <TableRow android:layout_marginTop="40sp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:text="Main Dish - "
+            android:textSize="30sp"
+            android:textColor="@color/black" />
+        <Spinner
+            android:id="@+id/spinner4"
+            android:layout_width="150sp"
+            android:layout_marginStart="-130sp"
+            android:layout_height="match_parent"
+            android:background="@android:drawable/btn_dropdown"
+            android:spinnerMode="dropdown"
+            />
+    </TableRow>
+    <TableRow android:layout_marginTop="40sp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:text="Desserts - "
+            android:textSize="30sp"
+            android:textColor="@color/black" />
+        <Spinner
+            android:id="@+id/spinner5"
+            android:layout_width="150sp"
+            android:layout_marginStart="-130sp"
+            android:layout_height="match_parent"
+            android:background="@android:drawable/btn_dropdown"
+            android:spinnerMode="dropdown"
+            />
+    </TableRow>
+    <TableRow android:layout_marginTop="40sp">
+        <Button
+            android:layout_height="match_parent"
+            android:text="Submit"
+            android:textSize="30sp"
+            android:layout_marginStart="20dp" />
+    </TableRow>
+</TableLayout>
